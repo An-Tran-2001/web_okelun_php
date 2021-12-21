@@ -1,0 +1,740 @@
+@font-face {
+    font-family: Beaufort for LOL;
+    src: url("../font/Beaufort_for_LOL_Bold/Beaufort\ for\ LOL\ Bold.ttf");
+}
+@font-face {
+    font-family: ZenAntiqueSoft-Regular ;
+    src: url("../font/ZenAntiqueSoft-Regular.ttf");
+}
+@font-face {
+    font-family: XANO-mincho-U32;
+    src: url("../font/XANO-mincho-U32.ttf");
+}
+@font-face {
+    font-family: SoukouMincho;
+    src: url("../font/SoukouMincho.ttf");
+}
+html{
+    font-family: ZenAntiqueSoft-Regular;
+}
+.container {
+    max-width: 98%;
+    margin: 0px auto;
+}
+#img-select{
+    display: block;
+}
+#header{
+    background-color: rgba(4, 4, 4, 0.967);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    justify-items: center;
+}
+#logo{
+    padding: 5px 0px;
+    padding-right: 20px;
+}
+#logo img{
+    max-width: 45px;
+    max-height: auto;
+}
+#main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main-menu li a{
+    position: relative;
+}
+#main-menu li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 0;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+#main-menu ul.sub-menu{
+    position: absolute;
+    background-color:  rgba(0,0,0,0.9);
+    padding: 15px 0px;
+    list-style: none;
+    width: 200px;
+    border: 1px solid #f5f4f415;
+    box-shadow: 0px 0px 20px #f5f4f43f;
+    display: none;
+}
+#main-menu li:hover ul.sub-menu{
+    display: block;
+}
+#main-menu ul.sub-menu li a{
+    padding: 8px 15px;
+    border-bottom: 1px solid #f5f4f460;
+    left: 0;
+}
+#main-menu ul.sub-menu li a:hover{
+    border-bottom: 1px solid #f5f4f4;
+}
+#main-menu ul.sub-menu li:last-child a{ 
+    border: none;
+}
+#main-menu ul.sub-menu ul.sub-menu{
+    left: 200px;
+    top: 63px;
+    padding-top: 5px;
+    margin-left: 3px;
+    display: none;
+}
+#main-menu ul.sub-menu li:hover ul.sub-menu{
+    display: block;
+}
+#main-menu>li>a{
+    position: relative;
+}
+#main-menu>li>a:after{
+    content: "";
+    content: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 4px;
+    background: #f5f4f4;
+    transition: 0.3s;
+}
+#main-menu>li:hover>a:after{
+    width: 100%;
+}
+#seach{
+    width: 400px;
+    color: rgb(228, 206, 206);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 7px 0px;
+    display: flex;
+}
+#seaching{
+    margin: 5px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    flex-grow: 1;
+}
+#seach i{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+/*  */
+.League_of_Legends{
+    background-image: url("../images/background1.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+}
+/*  */
+.header_video{
+    position: relative;
+    width:100%;
+    margin-top: -400px;
+}
+.header_video_lol_0{
+    width: 100%;
+}
+.header_video_main{
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    height: 500px;
+    overflow: hidden;
+}
+.border_video{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 500px;
+    height: 100%;
+    border: 1px solid #f5f4f4;
+    position: relative;
+}
+.header_video_lol_1{
+    margin-top: -200px ;
+    margin-left: -100px;
+}
+.img_button_lol{
+    position: absolute;
+    top:70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    display:flex;
+}
+.img_lol{
+    width: 550px;
+    height: 250px;
+    margin: 0 auto;
+}
+.border_button_video{
+    width: 200px;
+    height: 55px;
+    padding: 4px;
+    border: 1px solid #f5f4f4;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.lol_dowload_button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #01afff;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 550;
+    font-family: SoukouMincho;
+    cursor: pointer;
+    animation: dowloadbutton 5s infinite;
+}
+@keyframes dowloadbutton{
+    50%{background-color: rgb(0, 17, 255) ;}
+}
+.lol_dowload_button:hover{
+    background-color: #60cdff;
+    animation: dowloadbutton 0s infinite;
+}
+/*  */
+.naraka{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    display: none;
+}
+.header_video_naraka{
+    width: 100%;
+    height: auto;
+}
+.title_naraka{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: auto;
+}
+.logo_naraka{
+    position: absolute;
+    top:10%;
+    left: 50px;
+}
+.my-name{
+    position: absolute;
+    top:93%;
+    left: 50px;
+    color: rgba(235, 231, 231, 0.494);
+    display: flex;
+    flex-direction: column;
+    font-family: Cursive;
+    font-style: italic;
+}
+.bonus_naraka{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    width: 25%;
+    height: 50%;
+    background-image: url(/naraka/logo_chracter.png);
+    background-size: cover;
+}
+.buy_steam_web_naraka{
+    position: absolute;
+    top:75%;
+    left: 50px;
+    width: auto;
+    height: auto;
+    color: rgb(255, 255, 255);
+    background-image: url(/naraka/logo_steam.png);
+    background-size: cover;
+    font-size: 7rem;
+    font-family: fantasy;
+    cursor: pointer;
+    font-weight: 400;
+}
+.buy_steam_web_naraka:hover{
+    color: rgb(255, 0, 0);
+}
+.bonus_naraka>img{
+    z-index: 10000000;
+}
+.img_char_naraka{
+    z-index: 1;
+}
+/*  */
+.mybody{
+    margin-top: 200px;
+}
+.grid_grow{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(242, 241, 241, 0.5);
+    border-radius: 10px;
+    transition: 1s;
+    max-width: 90%;
+    margin: 0px auto;
+    text-align: center;
+}
+.grid_grow:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(242, 241, 241, 0.926);
+    border-radius: 10px;
+    max-width: 100%;
+}
+.grid_column_2{
+    width:16.6666%;
+    padding: 0px 12px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px 0 10px 10px;
+    /* height: 500px; */
+}
+.grid_column_2 h2 i{
+    margin-right: 5px;
+}
+.menu_information_lol li{
+    margin: 20px 0px;
+    text-align: left;
+    padding-left: 15px;
+}
+.menu_information_lol li a{
+    color: rgb(255, 255, 255);
+    position: relative;
+    transition: right linear 0.3s;
+    right: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+.menu_information_lol li a:hover{
+    color: rgb(255, 255, 255);
+    transition: right linear 0.3s;
+    right: -5px;
+}
+.menu_information_lol>li>a:after{
+    content: "";
+    content: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 1px;
+    background: #f5f4f4;
+    transition: 0.3s;
+}
+.menu_information_lol>li:hover>a:after{
+    width: 100%;
+}
+.menu_str{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(242, 241, 241, 0.5);
+    padding-bottom: 10px; 
+}
+.grid_column_10{
+    width:83.3333%;
+    padding: 0px 12px;
+    box-sizing: border-box;
+}
+.button_menu{
+    padding: 10px 0px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 25%;
+    margin: 10px auto;
+    border-radius: 30px 5px 30px 5px;
+    position: relative;
+    max-width: 100%;
+    transition: 0.3s;
+    animation: movebuttonmenu 5s infinite;
+}
+@keyframes movebuttonmenu{
+    50%{border-radius: 5px 30px 5px 30px;}
+}
+.button_menu:after{
+    content: "";
+    content: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 4px;
+    background: #f5f4f4;
+    transition: 0.3s;
+}
+.button_menu:hover:after{
+    width: 100%;
+}
+.button_menu:hover{
+    background-color: rgba(58, 202, 255, 0.638);
+    border-radius: 20px 20px 0px 0px;
+    animation: movebuttonmenu 0s infinite;
+}
+.button_information{
+    width: 100px;
+    height: 35px;
+    margin: 0px 10px;
+    border: none;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.782);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    transition: top linear 0.1s;
+    top: 0;
+}
+.button_information:hover{
+    background-color: rgb(0, 0, 0);
+    color:rgb(78, 226, 252);
+    top : -3px ;
+}
+.grid_row_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+/* .a_grid_column_2_5{
+    width: 20%;
+    box-sizing: border-box;
+} */
+.grid_column_2_5{
+    width: 20%;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.grid_column_2_5:hover{
+    background-color: rgba(23, 201, 255, 0.5);
+}
+.menu_item_information{
+    background-color: #000000;
+    transition: top linear 0.1s;
+    position: relative;
+    top:0;
+}
+.menu_item_information:hover{
+    background-color: #000000;
+    transition: top linear 0.1s;
+    position: relative;
+    top: -3px;
+}
+.menu_item_information_img{
+    padding-top: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu_item_information_name{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    padding: 0 5px;
+    margin: 5px 0;
+    height: 3.2rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.menu_item_information_like_date{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    color: rgba(255, 255, 255, 0.857);
+}
+/* .menu_item_information_like{}
+.menu_item_information_date{} */
+.menu_item_information_origin_author{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    color: rgb(199, 197, 197);
+}
+/* .menu_item_information_origin{}
+.menu_item_information_author{} */
+.menu_item_information_hotnews{
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    background-color: rgba(247, 0, 0, 0.131);
+    padding: 2px 10px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1rem;
+    animation: hot 5s infinite;
+}
+@keyframes hot{
+    50%{background-color: rgb(255, 0, 0);}
+}
+.menu_item_information_hotnews i{
+    margin-right: 5px;
+}
+.menu_item_information_hotnews::after{
+    content: "";
+    border-top: 5px solid rgba(247, 0, 0, 0.131) ;
+    border-left: 5px solid transparent;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    animation: hotbottom 5s infinite;
+}
+@keyframes hotbottom{
+    50%{border-top: 5px solid rgb(255, 0, 0);}
+}
+.pagination-margin{
+    margin: 50px 0 35px 0;
+} 
+/* next pag */
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.pagalation-item{
+    margin: 0 8px;
+}
+.pagalation-item-active .paganation-item_link{
+    background-color: rgb(255, 6, 6);
+    color: rgb(255, 255, 255);
+}
+.pagalation-item-active .paganation-item_link:hover{
+    background-color: rgba(255, 6, 6, 0.528);
+}
+.paganation-item_link{
+    --height:30px;
+    display: block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    min-width: 40px;
+    height: var(--height);
+    line-height: var(--height);
+    color:#f5f4f46b;
+    text-align: center;
+    border-radius: 2px;
+}
+/* bonus footer */
+.bonus_footer{
+    background-image: url("../images/nice.png");
+    background-color: rgba(114, 114, 114, 0.309);
+    display: flex;
+    width: 100%;
+    height: 800px;
+    padding: 5rem 0px;
+}
+.bonus_title{
+    margin: 0 auto;
+    width: 70%;
+}
+.footer_bonus_title{
+    line-height: 1.1;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+.footer_bonus_title h1{
+    font-weight: 600;
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    font-size: 1.25rem;
+    animation: after_title 10s infinite;
+    font-style: italic;
+}
+@keyframes after_title{
+    25%{color: rgb(255, 255, 255);}
+    50%{color: rgb(106, 253, 251);}
+    75%{color: rgb(255, 0, 212);}
+    100%{color: rgb(255, 6, 6);}
+}
+.tilte_name_bonus{
+    font-family: XANO-mincho-U32;
+    font-weight: 800;
+    font-size: calc(30.91px + 1.52vw);
+    animation: title_bonus 2s infinite;
+    font-style: italic;
+}
+@keyframes title_bonus{
+    50%{font-size: calc(40px + 2vw);}
+}
+.img_name_bonus{
+    width: 100%;
+    height: 60%;
+    margin: 10px auto;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.img_name_bonus_grow{
+    width: 50%;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    border: 1px solid #f5f4f4;
+    background-color: #f5f4f4;
+    cursor: pointer;
+    transition: linear 0.1s;
+}
+.img_name_bonus_grow:hover{
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+.img_bonus{
+    width: 100%;
+    height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.name_bonus{
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: auto auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+/* video footer */
+.footer_video{
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+.button_footer_video{
+    position: absolute;
+    top: 47%;
+    width: 100%;
+    margin: 0 auto;
+}
+/* foter lol end*/
+.footer_lol{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+}
+.footer-support{
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.footer-support-color{
+    background-color: rgba(237, 237, 237, 0.2);
+    padding: 20px 0;
+}
+.icon_link_lol{
+    margin: 20px 0 30px 0;
+}
+.riot_img{
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+}
+.riot_img img{
+    width: 100px;
+    height: 55px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.riot_link_end{
+   padding: 20px 0;
+}
+.icon_link_footer_lol{
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+.icon_link_footer_lol i{
+    animation: footer_all 0.5s infinite;
+}
+.support_lol{ 
+    margin: 0 15px;
+    animation: footer_all 0.5s infinite;
+}
+.support_lol:hover{
+    background-color: rgba(23, 201, 255, 0.604);
+    border-radius: 5px;
+    color: #fff;
+}
+.end_p{
+    width: 700px;
+    margin: 0 auto;
+    animation: footer_all 0.5s infinite;
+    font-style: italic;
+    font-size: 12px;
+}
+@keyframes footer_all{
+    50%{color: #fff;}
+}
+/*  */
+.information_game{
+    flex-direction: column;
+    padding: 15px 10px;
+    margin-bottom: 50px;
+    height: auto;
+}
+.information_game p{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin: 0 auto;
+    line-height: 1.2;
+    padding: 15px 0;
+    border:1px solid rgba(255, 255, 255, 0.282);
+    width: 80%;
+}
+.information_game img{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.information_game h3{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin: 0;
+    line-height: 1.2;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.282);
+}
+.information_author{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
