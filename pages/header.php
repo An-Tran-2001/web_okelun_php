@@ -4,7 +4,7 @@
             <a href="" id="logo">
                 <img src="images/logo.png" alt="">
             </a>
-            <li><a href="http://localhost/web_okelun/index.php">ホームページ</a></li>
+            <li><a href="http://localhost/web_okelun_php/index.php">ホームページ</a></li>
             <li><a href="#">エスポーツ</a>
                 <ul class="sub-menu">
                     <li><a href="index.php?all-game=lol">リーグ・オブ・レジェンド</a></li>
