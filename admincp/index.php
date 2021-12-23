@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['login'])){
+        header('location:../index.php');
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +14,17 @@
     <title>admincp</title>
 </head>
 <body>
-    <h3 class="title_admin">WELL COME TO ADMINCP</h3>
+    <?php
+        if(isset($_GET['dangxuat']) && $_GET['dangxuat']==1){
+            unset($_SESSION['login']);
+            header('location:../index.php');
+        }
+    ?>
+    <h3 class="title_admin">WELL COME TO ADMINCP
+        <div class="logout">
+            <a href="index.php?dangxuat=1">Logout </a>
+        </div>
+    </h3>
     <div class="wrapper">
         <?php
             include("config/config.php");

@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/home1.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel='shortcut icon' href='images/logohead2.png'>
     <title>Game</title>
+
 </head>
 <body>
     <div class="wrapperr">
