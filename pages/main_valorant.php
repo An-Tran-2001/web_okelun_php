@@ -1,0 +1,1 @@
+include("pages/footer_valorant.php");
