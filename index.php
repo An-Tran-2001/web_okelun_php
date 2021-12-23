@@ -23,19 +23,15 @@
             switch ($allgame){
                 case 'lol':
                     include("pages/main_lol.php");
-                    include("pages/footer_lol.php");
                     break;
                 case 'lienquan':
                     include("pages/main_lienquan.php");
-                    include("pages/footer_lienquan.php");
                     break;
                 case 'valorant':
                     include("pages/main_valorant.php");
-                    include("pages/footer_valorant.php");
                     break;
                 case 'csgo':
                     include("pages/main_naraka.php");
-                    include("pages/footer_naraka.php");
                     break;
                 default:
                     break;
@@ -43,7 +39,6 @@
         }
         else{
             include("pages/main_lol.php");
-            include("pages/footer_lol.php");
         }
         ?>
     </div>

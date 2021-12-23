@@ -41,12 +41,12 @@
     border: 0.5px solid  rgb(19, 159, 240);
     animation: mymove1 3s;
     animation-delay: 0.2s;
-    animation-fill-mode: forwards;
     text-align: center;
 }
 @keyframes mymove1 {
     from {margin-left: 0px;}
-    to {margin-left: 100px;}
+    to {margin-left: 100px;
+        animation-fill-mode: forwards;}
 }
 #form-forgot{
     display: none;
@@ -127,6 +127,8 @@ p{
     font-size: 15px;
     margin-top: 15px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 a{
     color: rgb(22, 203, 216);

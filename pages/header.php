@@ -24,8 +24,13 @@
             <i class="fas fa-search"></i>
         </div>
         <ul id="main-menu">
-            <li><a href="#" onclick="document.getElementById('wrapper').style.display='flex'">ログインする</a></li>
-            <li><a href="#" onclick="document.getElementById('wrapper').style.display='flex'">登録</a></li>
+            <li><a href="#" onclick="document.getElementById('wrapper').style.display='flex';
+            document.getElementById('form-login').style.display='block';
+            document.getElementById('form-singup').style.display='none'">ログインする</a></li>
+            <li><a href="#" onclick="document.getElementById('wrapper').style.display='flex';
+            document.getElementById('form-singup').style.display='block';
+            document.getElementById('form-singup').style.animation='none';
+            document.getElementById('form-login').style.display='none'">登録</a></li>
         </ul>
     </nav>
 </div>

@@ -56,4 +56,7 @@
             </ul>
         </div>
     </div>
+    <?php
+    include("pages/footer_lol.php");
+    ?>
 </div>

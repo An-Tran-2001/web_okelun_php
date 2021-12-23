@@ -37,18 +37,22 @@
         <div class="suppot">
             <a href="#" onclick="document.getElementById('form-singup').style.display='block'">新規登録</a>
             <a href="#" onclick="document.getElementById('form-forgot').style.display='block';
-            document.getElementById('form-login').style.display='none'" id="suppot1"
-                style="padding-left: 200px;">パスワードを忘れた</a>
+            document.getElementById('form-login').style.display='none'" id="suppot1">パスワードを忘れた</a>
         </div>
         <p>----------------また----------------</p>
         <div class="suppot">
             <a href="https://twitter.com/login?lang=ja" class="twitter"><i
                     class="fab fa-twitter"></i>Twitterでログイン</a>
-            <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"
-                    style="padding-left: 120px;"></i>Facebookでログイン</a>
+            <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i>Facebookでログイン</a>
         </div>
     </form>
     <form action="" id="form-singup" autocomplete="off">
+        <div class="out-login">
+            <i class="fas fa-window-close" 
+            onclick="
+            document.getElementById('form-singup').style.animation='mymove1 3s';
+            document.getElementById('wrapper').style.display='none'"></i>
+        </div>
         <h1 class="form-heading">登録</h1>
         <div class="form-group-singup">
             <input type="text" class="form-input-singup" placeholder="ファーストネーム">
