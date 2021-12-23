@@ -86,7 +86,7 @@
             </div>
         </div>
         <input type="submit" value="登録" class="form-submit submit-singup">
-        <div class="suppot">
+        <div class="suppot" style="justify-content: center;">
             <a href="#" onclick="document.getElementById('form-forgot').style.display='block';
             document.getElementById('form-singup').style.display='none'" id="suppot1"
                 style="margin-top:10px">パスワードを忘れた</a>
