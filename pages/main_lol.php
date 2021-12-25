@@ -13,7 +13,10 @@
                         src="https://www.leagueoflegends.com/static/logo-800-47024e2aeaaa8651c172ba883264dd43.png"
                         alt="">
                     <div class="border_button_video">
-                        <button class="lol_dowload_button">ダウンロード</button>
+                        <button class="lol_dowload_button"
+                        onclick="document.getElementById('wrapper').style.display='flex';
+                        document.getElementById('form-login').style.display='block';
+                        document.getElementById('form-singup').style.display='none'">ダウンロード</button>
                     </div>
                 </div>
             </div>

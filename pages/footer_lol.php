@@ -4,7 +4,10 @@
     </video>
     <div class="button_footer_video">
         <div class="border_button_video">
-            <button class="lol_dowload_button">ダウンロード</button>
+            <button class="lol_dowload_button"
+                onclick="document.getElementById('wrapper').style.display='flex';
+                document.getElementById('form-login').style.display='block';
+                document.getElementById('form-singup').style.display='none'">ダウンロード</button>
         </div>
     </div>
 </div>

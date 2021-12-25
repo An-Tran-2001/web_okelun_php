@@ -1,8 +1,25 @@
+@font-face{
+    font-family: Parisienne-Regular ;
+    src: url("../../font/Parisienne-Regular.ttf");
+}
+@font-face{
+    font-family: PressStart2P-Regular ;
+    src: url("../../font/PressStart2P-Regular.ttf");
+}
+@font-face {
+    font-family: ZenAntiqueSoft-Regular ;
+    src: url("../../font/ZenAntiqueSoft-Regular.ttf");
+}
 html{
     background-image: url("../../images/background1.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+}
+body{
+    display: block;
+    margin: 0;
 }
 .admincp_list{
     padding: 0;
@@ -31,6 +48,24 @@ ul.admincp_list li{
     border-radius: 10px;
     margin: 0 auto;
     height: auto;
+    background-color: rgba(140, 140, 140, 0.131);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 20px 0;  
+}
+.logo_game_admin{
+    width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.logo_game_admin img{
+    width: 100%;
+    height: auto;
 }
 .logout a{
     line-height: 1.1;
@@ -38,5 +73,209 @@ ul.admincp_list li{
     color: #fff;
     text-decoration: none;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.172);
+    background-color: rgba(0, 0, 0, 0.885);
+    margin-top: 10px;
+    border: 1px solid rgba(213, 211, 211, 0.7);
+    border-radius: 5px;
+}
+.logout>a:hover{
+    background-color: rgba(253, 253, 253, 0.344);
+}
+.logout{
+    margin-top:10px;
+    margin-bottom: 2px;
+}
+.admincp_list{
+    text-decoration: none;
+    height: auto;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.admincp_list a{
+    line-height: 1.1;
+    font-size: 20px;
+    color: #fff;
+    font-style: italic;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.837);
+    padding: 15px 10px;
+    margin: 10px 10px;
+    transition: linear 0.2s;
+}
+.admincp_list a:hover{
+    background-color: rgba(253, 253, 253, 0.556);
+    color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.admincp_list a:active{
+    background-color: rgb(19, 226, 253);
+    color: rgb(190, 255, 255);
+}
+.dashboard{
+    line-height: 1.5;line-height: 1.5;
+    font-size: 20px;
+    color: #fff;
+    margin: 50px 0;
+    animation: dashboard_name 5s linear 0s infinite;
+}
+@keyframes dashboard_name{
+    0%{
+        font-size: 20px;
+        color: rgb(132, 255, 245);
+    }
+    50%{
+        font-size: 30px;
+        color: rgb(255, 26, 26);
+    }
+    100%{
+        font-size: 20px;
+        color: rgb(146, 248, 255);
+    }
+}
+.footer_ad{
+    display: flex;
+    margin-top: 50px;
+    list-style: none;
+    font-family:  ZenAntiqueSoft-Regular ;
+    color: rgb(255, 255, 255);
+}
+/*  */
+.footer_lol{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+}
+.footer-support{
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.footer-support-color{
+    background-color: rgba(237, 237, 237, 0.2);
+    padding: 20px 0;
+}
+.icon_link_lol{
+    margin: 20px 0 30px 0;
+}
+.riot_img{
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+}
+.riot_img img{
+    width: 100px;
+    height: 55px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.riot_link_end{
+   padding: 20px 0;
+}
+.icon_link_footer_lol{
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+.support_lol{ 
+    margin: 0 15px;
+}
+.support_lol:hover{
+    background-color: rgba(23, 201, 255, 0.604);
+    border-radius: 5px;
+    color: #fff;
+}
+.end_p{
+    width: 700px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: Parisienne-Regular  ;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+table{
+    border: 1px solid rgba(255, 255, 255, 0.809);
+    width: auto;
+    background-color: rgba(28, 28, 28, 0.796);
+}
+table th{
+    background-color: rgba(0, 0, 0, 0.926);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+table tr td{
+    padding: 10px;
+}
+input{
+    width: 100%;
+    border:none;
+    height: 35px;
+    background: transparent;
+    outline: none;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+}
+input[type="submit"]{
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(221, 221, 221);
+    color: rgb(10, 10, 10);
+}
+textarea{
+    width: 100%;
+    resize: none;
+    border: none;
+    height: auto;
+    max-height: 400px;
+    outline: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
+select{
+    width: 100%;
+    border: none;
+    height: 35px;
+    background: transparent;
+    outline: none;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+}
+option{
+    color: rgb(0, 0, 0);
+}
+input[type="file"]{
+    height:100%;
+    color: rgb(255, 255, 255);
+}
+h3{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family:  ZenAntiqueSoft-Regular  ;
+    line-height: 1.5;
+    font-weight: 500;
+    word-spacing: 1.3px;
 }

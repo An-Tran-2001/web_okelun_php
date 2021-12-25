@@ -2,7 +2,7 @@
     $sql_sua_tingame= "SELECT * FROM tbl_tin_game WHERE id_tingame = '$_GET[idtingame]' LIMIT 1";
     $query_sua_tingame= mysqli_query($mysqli, $sql_sua_tingame);
 ?>
-<p>Sửa tin game </p>
+<h3>Sửa Tin Game</h3>
 <table style="width:100%; color: #fff; border-collapse: collapse;" border="1px">
     <?php while($row= mysqli_fetch_array($query_sua_tingame)){ ?>
         <form method="POST" action="modules/quanlytingame_lol/xuly.php?idtingame=<?php echo $row['id_tingame']?>" enctype="multipart/form-data">

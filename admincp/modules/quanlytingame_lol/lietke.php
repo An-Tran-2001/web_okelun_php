@@ -2,7 +2,7 @@
     $sql_lietke_tingame= "SELECT * FROM tbl_tin_game, tbl_danhmuc WHERE tbl_tin_game.id_danhmuc =  tbl_danhmuc.id_danhmuc ORDER BY id_tingame DESC";
     $query_lietke_tingame= mysqli_query($mysqli, $sql_lietke_tingame);
 ?>
-<p>liệt kê ra rùi nè</p>
+<h3>Liệt Kê Ra Rồi Này</h3>
 <table style=" background-color: rgba(28, 28, 28, 0.796);width:100%; color: #fff; border-collapse: collapse;" border="1px">
     <tr>
         <th>id</th>
@@ -16,7 +16,7 @@
         <th>Tóm tắt</th>
         <th>Nội Dung</th>
         <th>Tình Trạng</th>
-        <!-- <th>thứ tự</th> -->
+        <th>Thay đổi</th>
     </tr>
     <?php
     $i=0;

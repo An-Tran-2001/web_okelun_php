@@ -2,8 +2,8 @@
     $sql_lietke_danhmuclol= "SELECT * FROM tbl_danhmuc ORDER BY thutu DESC";
     $query_lietke_danhmuclol= mysqli_query($mysqli, $sql_lietke_danhmuclol);
 ?>
-<p>liệt kê ra rùi nè</p>
-<table style=" background-color: rgba(28, 28, 28, 0.796);width:100%; color: #fff; border-collapse: collapse;" border="1px">
+<h3>Liệt Kê Ra Rồi Này</h3>
+<table style="width:100%; color: #fff; border-collapse: collapse;" border="1px">
     <tr>
         <th>id</th>
         <th>Tên danh mục</th>

@@ -1,8 +1,9 @@
-<p>thêm tin game </p>
+<h3>Thêm Tin Game</h3>
 <table style="width:100%; color: #fff; border-collapse: collapse;" border="1px">
     <form method="POST" action="modules/quanlytingame_lol/xuly.php" enctype="multipart/form-data">
         <tr>
             <th>Điền tin game</th>
+            <th>Điền giá trị</th>
         </tr>
         <tr>
             <td>Tên tin </td>
@@ -25,12 +26,12 @@
             <td><input type="text" name="tacgia"></td>
         </tr>
         <tr>
-            <td>tóm tắt</td>
-            <td><textarea rows="5" name="tomtat" style="resize:none; width:90%;border:none;margin:0 auto;display:flex"></textarea></td>
+            <td>Tóm tắt</td>
+            <td><textarea rows="5" name="tomtat"></textarea></td>
         </tr>
         <tr>
             <td>Nội dung</td>
-            <td><textarea rows="5" name="noidung" style="resize:none; width:90%;border:none;margin:0 auto;display:flex"></textarea></td>
+            <td><textarea rows="5" name="noidung"></textarea></td>
         </tr>
         <tr>
             <td>hình ảnh</td>

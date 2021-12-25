@@ -1,8 +1,9 @@
-<p>thêm danh muc </p>
+<h3>Thêm Danh Mục</h3>
 <table style="width:100%; color: #fff; border-collapse: collapse;" border="1px">
     <form method="POST" action="modules/quanlydanhmuc_lol/xuly.php">
         <tr>
             <th>Điền danh mục game</th>
+            <th>Điền giá trị</th>
         </tr>
         <tr>
             <td>Tên danh mục</td>

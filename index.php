@@ -16,7 +16,7 @@
     <div class="wrapperr">
         <?php
         include("admincp/config/config.php");
-        include("pages/login_submit.php");
+        include("pages/login_submit/login_submit.php");
         include("pages/header.php");
         if(isset($_GET['all-game'])){
             $allgame = $_GET['all-game'];
@@ -43,4 +43,6 @@
         ?>
     </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="js/app.js"></script>
 </html>

@@ -1,1 +1,1 @@
-<p>Ưelcome to dashboard</p>
+<p class="dashboard">Chào admin Hãy chọn danh mục bạn muốn quản lý</p>
