@@ -1,0 +1,170 @@
+@font-face {
+    font-family: Beaufort for LOL;
+    src: url("../../font/Beaufort_for_LOL_Bold/Beaufort\ for\ LOL\ Bold.ttf");
+}
+@font-face {
+    font-family: ZenAntiqueSoft-Regular ;
+    src: url("../../font/ZenAntiqueSoft-Regular.ttf");
+}
+@font-face {
+    font-family: XANO-mincho-U32;
+    src: url("../../font/XANO-mincho-U32.ttf");
+}
+@font-face {
+    font-family: SoukouMincho;
+    src: url("../../font/SoukouMincho.ttf");
+}
+body{
+    background-image: url("img/background1.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: SoukouMincho;   
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+.logo_lol{
+    display: flex;
+    width: 95%;
+    height: auto;
+    padding: 50px 0;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_logo{
+    width: 150px;
+    height: 62px;
+}
+.img_logo img{
+    width: 100%;
+    height: 100%;
+}
+.language{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.languegua_str{
+    position: absolute;
+    width: 40spx;
+    left: -40px;
+    top:10%;
+}
+.languegua_str>p{
+    margin:0;
+}
+#select_languague{
+    width:100%;
+    height: 30px;
+    border: 2px solid #fff;
+}
+.title_lol_dowload{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    margin: 50px 0;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.title_lol_dowload::before{
+    content: "";
+    width: 50px;
+    height: 100vh;
+    background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/signup/ja_JP/8473ee987f412783afafc8abe37ed37e31b0af83/assets/ja_JP/assets/hangtag.svg");
+    position: absolute;
+    top: -100vh;
+    left: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.header_title{
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    font-style: italic;
+}
+.button_dowload{
+    width: 100%;
+}
+.border_button_lol{
+    width: 15%;
+    margin: 0 auto;
+    border: 4px solid rgb(211 178 98);
+}
+.border_button_lol:hover{
+    box-shadow: 0 0 20px rgba(233, 188, 82, 0.323);
+}
+.button_lol{
+    background-image: url("img/button-bg-pattern.png");
+    background-position: 0 0;
+    background-size: cover;
+    transition: linear 350s;
+}
+.button_lol:hover{
+    background-image: url("img/button-bg-pattern.png");
+    background-repeat: repeat;
+    background-position: -10000px 0;
+    background-size: cover;
+}
+.dowload_lol{
+    width: 100%;
+    height: auto;
+    padding: 17px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    list-style: none;
+    line-height: 1.4;
+    font-weight: 600;
+    border:none;
+    background: transparent;
+    color: rgb(216, 215, 215);
+}
+.button_dowload_ios{
+    width:15%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.button_dowload_ios>a{
+    color: rgb(216, 215, 215);
+    margin: 15px 0;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    margin: 35px 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: rgb(216, 215, 215);
+    font-style: italic;
+}
+.footer>p>a{
+    color: rgb(216, 215, 215);
+    margin: 0 4px;
+}
