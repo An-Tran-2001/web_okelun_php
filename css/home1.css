@@ -147,7 +147,7 @@ nav{
 .header_video{
     position: relative;
     width:100%;
-    margin-top: -400px;
+    margin-top: -22%;
 }
 .header_video_lol_0{
     width: 100%;
@@ -156,25 +156,25 @@ nav{
     width: 100%;
     position: absolute;
     top: 60%;
-    height: 500px;
+    height: 60%;
     overflow: hidden;
 }
 .border_video{
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
-    height: 500px;
     height: 100%;
     border: 1px solid #f5f4f4;
     position: relative;
 }
 .header_video_lol_1{
-    margin-top: -200px ;
+    margin-top: -10%;
     margin-left: -100px;
+    width: 100vw;
 }
 .img_button_lol{
     position: absolute;
-    top:70px;
+    top:20%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -182,17 +182,15 @@ nav{
     display:flex;
 }
 .img_lol{
-    width: 550px;
-    height: 250px;
+    width: 40%;
     margin: 0 auto;
 }
 .border_button_video{
-    width: 200px;
-    height: 55px;
+    min-width: 10%;
     padding: 4px;
     border: 1px solid #f5f4f4;
     margin: 0 auto;
-    margin-top: 10px;
+    max-width: 25%;
 }
 .lol_dowload_button{
     width: 100%;
@@ -205,6 +203,7 @@ nav{
     font-family: SoukouMincho;
     cursor: pointer;
     animation: dowloadbutton 5s infinite;
+    padding: 15px 0;
 }
 @keyframes dowloadbutton{
     50%{background-color: rgb(0, 17, 255) ;}
@@ -281,7 +280,7 @@ nav{
 }
 /*  */
 .mybody{
-    margin-top: 200px;
+    margin-top: 13%;
 }
 .grid_grow{
     display:flex;
@@ -624,7 +623,7 @@ nav{
 /* video footer */
 .footer_video{
     width: 100%;
-    height: 1000px;
+    height: auto;
     overflow: hidden;
     position: relative;
 }
@@ -655,6 +654,7 @@ nav{
 .footer-support-color{
     background-color: rgba(237, 237, 237, 0.2);
     padding: 20px 0;
+    margin-top: -2px;
 }
 .icon_link_lol{
     margin: 20px 0 30px 0;

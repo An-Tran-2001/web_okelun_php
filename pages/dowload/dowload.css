@@ -163,6 +163,8 @@ body{
     background: transparent;
     color: rgb(216, 215, 215);
     font-style: italic;
+    line-height: 0.7;
+    font-size: 0.8rem;
 }
 .footer>p>a{
     color: rgb(216, 215, 215);

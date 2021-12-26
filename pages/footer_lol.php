@@ -1,9 +1,10 @@
 <div class="footer_video">
-    <video autoplay muted loop>
+    <video autoplay muted loop class="header_video_lol_0">
         <source src="video_game/ss2020_galio_lux_1920x1080.mp4" type="video/mp4">
     </video>
     <div class="button_footer_video">
-        <div class="border_button_video">
+        <div class="border_button_video" style="max-width: 20vh;
+    min-width: 5vh;">
             <button class="lol_dowload_button"
                 onclick="document.getElementById('wrapper').style.display='flex';
                 document.getElementById('form-login').style.display='block';
