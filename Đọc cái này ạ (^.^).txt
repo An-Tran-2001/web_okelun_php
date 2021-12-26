@@ -1,0 +1,36 @@
+Tên sinh Viên: Trần Văn An
+Mã Sinh Viên: 1921050029
+------------------
+
+tài khoản admin:
+user: admin
+pass: admin
+tài khoản thường:
+user: tranvanan
+pass:tranvanan
+--> có thể tự đky để làm tài khoản thường admin chỉ có 1 muốn thêm phải vô tbl
+------------
+
+Bài đc viết từ con số 0 còn nhiều lỗi chưa thử trên nhiều loại máy và màn hình.
+Ngôn ngừ dùng:
+sql: tiếng việt
+css,html: eng
+Ngôn ngữ hiển thị: japan
+-----------
+
+Chú ý: 
+- Nhiều file trống vẫn còn là ý tưởng. 
+- Phần đăng nhập đầy đủ nhưng mới chỉ có sql đăng nhập và đăng ký chưa xử lý sâu
+- Trang web giờ mới chỉ có phần tin tức game_lol
+- sql sử dụng cho menu điều khiển tin phần tin tức đăng nhập và đăng ký
+- phần dowload có thể tải nên hãy cẩn thận
+-----------
+----> Có hình ảnh demo ở phía dưới có thể xem trước ạ.
+-----------
+
+Cảm ơn thầy đã đọc! 
+Em chúc thầy luôn khỏe mạnh và hạnh phúc bên gia đình.
+
+
+Cam đoan sẽ không giống các bài khác:
+link github: https://github.com/An-Tran-2001
